@@ -7,7 +7,7 @@ export class Food {
     @Column()
     name: string;
     @Column()
-    descripcion: string;
+    description: string;
     @Column()
     image: string;
     @Column()

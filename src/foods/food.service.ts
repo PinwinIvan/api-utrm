@@ -19,7 +19,7 @@ export class FoodService {
         }
 
         food.name = createFoodDto.name;
-        food.descripcion = createFoodDto.descripcion;
+        food.description = createFoodDto.description;
         food.category = createFoodDto.category;
         food.image = createFoodDto.image;
         food.price = createFoodDto.price;
